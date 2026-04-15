@@ -1,17 +1,18 @@
 # 👇🏻 YOUR CODE 👇🏻:
 
+#(연간 매출 계산)
 def get_yearly_revenue(monthly_revenue) :
    return monthly_revenue * 12
-
+#(연간 비용 계산)
 def get_yearly_expenses(monthly_expenses):
    return monthly_expenses * 12
-
+#(세금 계산)
 def get_tax_amount(profit):
         if profit > 1000000:
             return profit * 0.25
         else: 
             return profit * 0.15    
-    
+#(세액 공제 적용)   
 def apply_tax_credits(tax_amount, tax_credits):
     return tax_amount * tax_credits
 
